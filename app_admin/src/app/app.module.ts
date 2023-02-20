@@ -1,16 +1,31 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from "@angular/forms";
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-router.module';
+import { TripListingComponent } from './trip-listing/trip-listing.component';
+import { TripCardComponent } from './trip-card/trip-card.component';
+import { TripDataService } from 'services/trip-data.service';
+import { EditTripComponent } from './edit-trip/edit-trip.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TripListingComponent,
+    TripCardComponent,
+    EditTripComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    TripDataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
