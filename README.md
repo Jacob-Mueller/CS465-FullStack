@@ -3,7 +3,7 @@ CS 465- Full Stack Development 1 w/ MEAN
 
 Architecture
 
-This project utilized the handlebars framework, providing templates for the HTML pages so that there was a quick and noticeable progession from just starting out to getting a website up and running. The SPA (single page application) was created with Angular and since there isn't a back and forth from user to database, like there is with MPA's (multiple page applications), as the website is navigated it benefited from being outfitted with a noSQL database. That kind of database is best pairted with unstructured documents.
+This project utilized the handlebars framework, providing templates for the HTML pages so that there was a quick and noticeable progession from the beginning to the end when the website would be up and running. The SPA (single page application) was created with Angular and since there isn't a back and forth from user to database, like there is with MPA's (multiple page applications), as the website is navigated it benefited from being outfitted with a noSQL database. That kind of database is best pairted with unstructured documents.
 
 Functionality
 
